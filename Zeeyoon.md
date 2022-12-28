@@ -46,9 +46,6 @@
   import '@testing-library/jest-dom';
   ```
 
-🏁 jest-do 문서 : https://github.com/testing-library/jest-dom
-🏁 react-testing-library 문서 : https://testing-library.com/docs/
-
 ## 🔑 Jest 유용한 Matchers
 
 ### 1️⃣ describe(), it(),test() 키워드
@@ -213,3 +210,6 @@ test('에러가 잘 발생하고 있나요?', () => {
   - 라우팅이 제대로 되었는가? (url에 따라 올바른 컴포넌트 렌더링)
 
 - 팀프로젝트에 공통으로 나오는 util 에서 다양한 테스트가 필요한 경우 유닛테스트를 도입해도 좋을것 같다.
+
+- 🏁 jest-do 문서 : https://github.com/testing-library/jest-dom
+- 🏁 react-testing-library 문서 : https://testing-library.com/docs/
