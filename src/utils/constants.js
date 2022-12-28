@@ -4,7 +4,7 @@ export const INPUT = {
     password: '비밀번호를 입력하세요.',
   },
   MIN_LEN: {
-    email: false,
+    email: undefined,
     password: 8,
   },
 };

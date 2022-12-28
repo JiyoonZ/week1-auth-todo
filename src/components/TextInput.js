@@ -4,11 +4,12 @@ import { INPUT } from '../utils/constants';
 export default function TextInput({ type, value, onChange, refValue }) {
   return (
     <Wrapper>
-      <InputLabel for={type}>{type}</InputLabel>
+      <InputLabel htmlFor={type}>{type}</InputLabel>
       <Input
         type={type}
         id={type}
         placeholder={INPUT.PLACEHOLDER[type]}
+        // placeholder={'아이디'}
         minLength={INPUT.MIN_LEN[type]}
         value={value}
         required
